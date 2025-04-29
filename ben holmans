@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben Holmans | Sound Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #000;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        header h1 {
+            color: #ff3c38;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header h2 {
+            color: #ffffff;
+            font-weight: 300;
+            margin: 0.5rem 0 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            background-color: #1a1a1a;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #ff3c38;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .section-title {
+            color: #ff3c38;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about img,
+        .services img {
+            width: 60%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 2rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Ben Holmans Logo">
+        <h1>Ben Holmans</h1>
+        <h2>Sound Engineer | Producer | Musician</h2>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="Studio">
+        <p>
+            I'm Ben Holmans, a versatile sound engineer, music producer, and musician. With a decade of experience in both live sound and studio production, I specialize in delivering precise, powerful audio experiences that elevate music, film, and media projects.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">Services</h2>
+        <img src="https://images.unsplash.com/photo-1601979031925-621c0f9f7c39" alt="Mixing Console">
+        <ul>
+            <li>Audio Mixing & Mastering</li>
+            <li>Music Production & Arrangement</li>
+            <li>Live Sound Engineering</li>
+            <li>Podcast & Voiceover Editing</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>Email: <a href="mailto:benjigg20@outlook.com" style="color:#fff;">benjigg20@outlook.com</a></p>
+        <p>Phone: <a href="tel:+1234567890" style="color:#fff;">+1 234 567 890</a></p>
+        <p>
+            <a href="https://instagram.com/b.holmans" style="color:#ff3c38;">Instagram</a> |
+            <a href="https://linkedin.com/in/yourprofile" style="color:#ff3c38;">LinkedIn</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ben Holmans. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
