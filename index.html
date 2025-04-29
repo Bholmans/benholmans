@@ -1,183 +1,129 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ben Holmans | Sound Engineer & Producer</title>
+  <title>Ben Holmans | Sound Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0b0c10;
-      color: #c5c6c7;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
     }
 
-    .navbar {
-      background-color: #1f2833;
-      padding: 1rem;
+    header {
+      background-color: #000;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #ff3c38;
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header h2 {
+      color: #ffffff;
+      font-weight: 300;
+      margin: 0.5rem 0 0;
+    }
+
+    nav {
       display: flex;
       justify-content: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .navbar ul {
-      list-style: none;
-      display: flex;
       gap: 2rem;
-      padding: 0;
-      margin: 0;
-      flex-wrap: wrap;
+      padding: 1rem;
+      background-color: #1a1a1a;
     }
 
-    .navbar a {
-      color: #66fcf1;
+    nav a {
+      color: #ffffff;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
 
-    .navbar a:hover {
+    nav a:hover {
       color: #ff3c38;
     }
 
-    .section {
+    section {
       padding: 4rem 2rem;
       max-width: 900px;
       margin: auto;
-      animation: fadeIn 1s ease-in;
     }
 
-    .home {
+    .section-title {
+      color: #ff3c38;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .about img,
+    .services img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #000;
       text-align: center;
-      background: linear-gradient(120deg, #0b0c10, #1f2833);
-      color: #66fcf1;
-      padding: 6rem 2rem;
-    }
-
-    .home h1 {
-      font-size: 3rem;
-      margin: 0;
-      color: #ff3c38;
-    }
-
-    .home h2 {
-      font-size: 1.5rem;
-      color: #45a29e;
-    }
-
-    .about h2,
-    .services h2,
-    .contact h2 {
-      color: #ff3c38;
-    }
-
-    .services ul {
-      list-style: square;
-      padding-left: 1.5rem;
-    }
-
-    .contact form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .contact input,
-    .contact textarea {
-      padding: 0.75rem;
-      border: none;
-      border-radius: 4px;
-      background-color: #1f2833;
-      color: #c5c6c7;
-    }
-
-    .contact button {
-      padding: 0.75rem;
-      background-color: #ff3c38;
-      border: none;
-      color: #fff;
-      font-weight: bold;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-
-    .contact button:hover {
-      background-color: #c62828;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 600px) {
-      .navbar ul {
-        flex-direction: column;
-        gap: 1rem;
-        align-items: center;
-      }
-
-      .home h1 {
-        font-size: 2rem;
-      }
-
-      .home h2 {
-        font-size: 1.2rem;
-      }
+      padding: 2rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <section id="home" class="section home">
+  <header>
     <h1>Ben Holmans</h1>
     <h2>Sound Engineer | Producer | Musician</h2>
-  </section>
+  </header>
 
-  <section id="about" class="section about">
-    <h2>About Me</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="Studio">
     <p>
-      Ben Holmans is a versatile sound engineer, producer, and musician with a passion for crafting immersive audio experiences.
-      With a strong foundation in studio production and live sound, Ben brings technical precision and creative flair to every project.
-      Whether behind the console or composing original music, he delivers high-quality sound tailored to each client's vision.
+      I'm Ben Holmans, a versatile sound engineer, music producer, and musician. With a decade of experience in both live sound and studio production, I specialize in delivering precise, powerful audio experiences that elevate music, film, and media projects.
     </p>
   </section>
 
-  <section id="services" class="section services">
-    <h2>Services</h2>
+  <section id="services">
+    <h2 class="section-title">Services</h2>
+    <img src="https://images.unsplash.com/photo-1601979031925-621c0f9f7c39" alt="Mixing Console">
     <ul>
-      <li>Mixing & Mastering</li>
+      <li>Audio Mixing & Mastering</li>
+      <li>Music Production & Arrangement</li>
       <li>Live Sound Engineering</li>
-      <li>Music Production</li>
-      <li>Audio Editing & Restoration</li>
-      <li>Consultation & Training</li>
+      <li>Podcast & Voiceover Editing</li>
     </ul>
   </section>
 
-  <section id="contact" class="section contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-    <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:your@email.com" style="color:#fff;">your@email.com</a></p>
+    <p>Phone: <a href="tel:+1234567890" style="color:#fff;">+1 234 567 890</a></p>
     <p>
-      <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a> |
-      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com/yourhandle" style="color:#ff3c38;">Instagram</a> |
+      <a href="https://linkedin.com/in/yourprofile" style="color:#ff3c38;">LinkedIn</a>
     </p>
-    <form action="#" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
   </section>
+
+  <footer>
+    <p>&copy; 2025 Ben Holmans. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
